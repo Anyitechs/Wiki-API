@@ -1,0 +1,22 @@
+{
+  "name": "wiki-api",
+  "version": "1.0.0",
+  "description": "A simple wikipedia-like API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RESTful",
+    "API"
+  ],
+  "author": "Ifeanyichukwu Amajuoyi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1"
+  }
+}
